@@ -1,0 +1,23 @@
+@import "settings";
+@import "foundation";
+@include customFont("Cuprum", "", "", "", "", "../../fonts/Cuprum/");
+
+// Redefine Top Bar font-sizes
+.top-bar-section {
+	ul {
+		font-size: rem-calc(21px);
+		&.dropdown {
+			font-size: rem-calc(16px);
+		}
+	}
+}
+
+// Redefine sliders resize of image inside
+.orbit-container {
+	.orbit-slides-container {
+		img {
+			max-width: none;
+		}
+	}
+	height: rem-calc(150px);
+}
