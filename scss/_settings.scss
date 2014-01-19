@@ -3,7 +3,7 @@
 //
 
 // Uncomment to use rem-calc() in your settings
-// @import "foundation/functions";
+@import "foundation/functions";
 
 // $experimental: true;
 
@@ -13,13 +13,13 @@
 // Since the typical default browser font-size is 16px, that makes the calculation for grid size.
 // If you want your base font-size to be different and not have it affect the grid breakpoints,
 // set $rem-base to $base-font-size and make sure $base-font-size is a px value.
-// $base-font-size: 100%;
+ $base-font-size: 18px;
 
 // The $base-line-height is 100% while $base-font-size is 150%
 // $base-line-height: 150%;
 
 // This is the default html and body font-size for the base rem value.
-// $rem-base: 16px;
+$rem-base: $base-font-size;
 
 // We use this to control whether or not CSS classes come through in the gem files.
 // $include-html-classes: true;
@@ -30,14 +30,17 @@
 
 // $include-html-grid-classes: $include-html-classes;
 
-// $row-width: rem-calc(1000);
-// $column-gutter: rem-calc(30);
+$row-width: rem-calc(1188);
+$column-gutter: rem-calc(20);
 // $total-columns: 12;
 
 // We use these to control various global styles
- $body-bg: #f3f3f3;
-// $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+ $body-bg: #f3f3f3 inline-image("../images/global/noise-bg.png");
+ $body-font-color: #303030;
+ $body-font-family: Ubuntu, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+ $anchor-font-color: #f16529;
+ $anchor-font-color-hover: lighten($anchor-font-color, 10%);
+ $anchor-text-decoration-hover: underline;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -50,7 +53,7 @@
 // $default-float: left;
 
 // We use these as default colors throughout
-// $primary-color: #008CBA;
+// $primary-color: #303030;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -956,7 +959,7 @@
 // $topbar-link-color-hover: #fff;
 // $topbar-link-color-active: #fff;
 // $topbar-link-weight: normal;
- $topbar-link-font-size: rem-calc(24);
+$topbar-link-font-size: rem-calc(21);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
  $topbar-link-bg-hover: #6f92b8;
 // $topbar-link-bg-active: $primary-color;

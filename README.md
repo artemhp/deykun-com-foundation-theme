@@ -22,7 +22,17 @@ compass watch
 
 ## Upgrading
 
-If you'd like to upgrade to a newer version of Foundation down the road just run:
+If you'd like to upgrade to a newer v+
+
+
+
+
+
+
+
+
+
+63.ersion of Foundation down the road just run:
 
 ```bash
 bower update

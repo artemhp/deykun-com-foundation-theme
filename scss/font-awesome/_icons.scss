@@ -8,7 +8,7 @@
 //.#{$fa-css-prefix}-heart:before { content: $fa-var-heart; }
 //.#{$fa-css-prefix}-star:before { content: $fa-var-star; }
 //.#{$fa-css-prefix}-star-o:before { content: $fa-var-star-o; }
-//.#{$fa-css-prefix}-user:before { content: $fa-var-user; }
+.#{$fa-css-prefix}-user:before { content: $fa-var-user; }
 //.#{$fa-css-prefix}-film:before { content: $fa-var-film; }
 //.#{$fa-css-prefix}-th-large:before { content: $fa-var-th-large; }
 //.#{$fa-css-prefix}-th:before { content: $fa-var-th; }
@@ -46,7 +46,7 @@
 //.#{$fa-css-prefix}-tag:before { content: $fa-var-tag; }
 //.#{$fa-css-prefix}-tags:before { content: $fa-var-tags; }
 //.#{$fa-css-prefix}-book:before { content: $fa-var-book; }
-//.#{$fa-css-prefix}-bookmark:before { content: $fa-var-bookmark; }
+.#{$fa-css-prefix}-bookmark:before { content: $fa-var-bookmark; }
 //.#{$fa-css-prefix}-print:before { content: $fa-var-print; }
 //.#{$fa-css-prefix}-camera:before { content: $fa-var-camera; }
 //.#{$fa-css-prefix}-font:before { content: $fa-var-font; }
@@ -115,7 +115,7 @@
 //.#{$fa-css-prefix}-warning:before,
 //.#{$fa-css-prefix}-exclamation-triangle:before { content: $fa-var-exclamation-triangle; }
 //.#{$fa-css-prefix}-plane:before { content: $fa-var-plane; }
-//.#{$fa-css-prefix}-calendar:before { content: $fa-var-calendar; }
+.#{$fa-css-prefix}-calendar:before { content: $fa-var-calendar; }
 //.#{$fa-css-prefix}-random:before { content: $fa-var-random; }
 //.#{$fa-css-prefix}-comment:before { content: $fa-var-comment; }
 //.#{$fa-css-prefix}-magnet:before { content: $fa-var-magnet; }
@@ -128,8 +128,8 @@
 //.#{$fa-css-prefix}-arrows-v:before { content: $fa-var-arrows-v; }
 //.#{$fa-css-prefix}-arrows-h:before { content: $fa-var-arrows-h; }
 //.#{$fa-css-prefix}-bar-chart-o:before { content: $fa-var-bar-chart-o; }
-//.#{$fa-css-prefix}-twitter-square:before { content: $fa-var-twitter-square; }
-//.#{$fa-css-prefix}-facebook-square:before { content: $fa-var-facebook-square; }
+.#{$fa-css-prefix}-twitter-square:before { content: $fa-var-twitter-square; }
+.#{$fa-css-prefix}-facebook-square:before { content: $fa-var-facebook-square; }
 //.#{$fa-css-prefix}-camera-retro:before { content: $fa-var-camera-retro; }
 //.#{$fa-css-prefix}-key:before { content: $fa-var-key; }
 //.#{$fa-css-prefix}-gears:before,
@@ -140,12 +140,12 @@
 //.#{$fa-css-prefix}-star-half:before { content: $fa-var-star-half; }
 //.#{$fa-css-prefix}-heart-o:before { content: $fa-var-heart-o; }
 //.#{$fa-css-prefix}-sign-out:before { content: $fa-var-sign-out; }
-//.#{$fa-css-prefix}-linkedin-square:before { content: $fa-var-linkedin-square; }
+.#{$fa-css-prefix}-linkedin-square:before { content: $fa-var-linkedin-square; }
 //.#{$fa-css-prefix}-thumb-tack:before { content: $fa-var-thumb-tack; }
 //.#{$fa-css-prefix}-external-link:before { content: $fa-var-external-link; }
 //.#{$fa-css-prefix}-sign-in:before { content: $fa-var-sign-in; }
 //.#{$fa-css-prefix}-trophy:before { content: $fa-var-trophy; }
-//.#{$fa-css-prefix}-github-square:before { content: $fa-var-github-square; }
+.#{$fa-css-prefix}-github-square:before { content: $fa-var-github-square; }
 //.#{$fa-css-prefix}-upload:before { content: $fa-var-upload; }
 //.#{$fa-css-prefix}-lemon-o:before { content: $fa-var-lemon-o; }
 //.#{$fa-css-prefix}-phone:before { content: $fa-var-phone; }
@@ -177,7 +177,7 @@
 //.#{$fa-css-prefix}-briefcase:before { content: $fa-var-briefcase; }
 //.#{$fa-css-prefix}-arrows-alt:before { content: $fa-var-arrows-alt; }
 //.#{$fa-css-prefix}-group:before,
-//.#{$fa-css-prefix}-users:before { content: $fa-var-users; }
+.#{$fa-css-prefix}-users:before { content: $fa-var-users; }
 //.#{$fa-css-prefix}-chain:before,
 //.#{$fa-css-prefix}-link:before { content: $fa-var-link; }
 //.#{$fa-css-prefix}-cloud:before { content: $fa-var-cloud; }
@@ -230,11 +230,11 @@
 //.#{$fa-css-prefix}-umbrella:before { content: $fa-var-umbrella; }
 //.#{$fa-css-prefix}-paste:before,
 //.#{$fa-css-prefix}-clipboard:before { content: $fa-var-clipboard; }
-//.#{$fa-css-prefix}-lightbulb-o:before { content: $fa-var-lightbulb-o; }
+.#{$fa-css-prefix}-lightbulb-o:before { content: $fa-var-lightbulb-o; }
 //.#{$fa-css-prefix}-exchange:before { content: $fa-var-exchange; }
 //.#{$fa-css-prefix}-cloud-download:before { content: $fa-var-cloud-download; }
 //.#{$fa-css-prefix}-cloud-upload:before { content: $fa-var-cloud-upload; }
-//.#{$fa-css-prefix}-user-md:before { content: $fa-var-user-md; }
+.#{$fa-css-prefix}-user-md:before { content: $fa-var-user-md; }
 //.#{$fa-css-prefix}-stethoscope:before { content: $fa-var-stethoscope; }
 //.#{$fa-css-prefix}-suitcase:before { content: $fa-var-suitcase; }
 //.#{$fa-css-prefix}-bell-o:before { content: $fa-var-bell-o; }
@@ -263,8 +263,8 @@
 //.#{$fa-css-prefix}-mobile-phone:before,
 //.#{$fa-css-prefix}-mobile:before { content: $fa-var-mobile; }
 //.#{$fa-css-prefix}-circle-o:before { content: $fa-var-circle-o; }
-//.#{$fa-css-prefix}-quote-left:before { content: $fa-var-quote-left; }
-//.#{$fa-css-prefix}-quote-right:before { content: $fa-var-quote-right; }
+.#{$fa-css-prefix}-quote-left:before { content: $fa-var-quote-left; }
+.#{$fa-css-prefix}-quote-right:before { content: $fa-var-quote-right; }
 //.#{$fa-css-prefix}-spinner:before { content: $fa-var-spinner; }
 //.#{$fa-css-prefix}-circle:before { content: $fa-var-circle; }
 //.#{$fa-css-prefix}-mail-reply:before,
@@ -395,7 +395,7 @@
 //.#{$fa-css-prefix}-moon-o:before { content: $fa-var-moon-o; }
 //.#{$fa-css-prefix}-archive:before { content: $fa-var-archive; }
 //.#{$fa-css-prefix}-bug:before { content: $fa-var-bug; }
-//.#{$fa-css-prefix}-vk:before { content: $fa-var-vk; }
+.#{$fa-css-prefix}-vk:before { content: $fa-var-vk; }
 //.#{$fa-css-prefix}-weibo:before { content: $fa-var-weibo; }
 //.#{$fa-css-prefix}-renren:before { content: $fa-var-renren; }
 //.#{$fa-css-prefix}-pagelines:before { content: $fa-var-pagelines; }
@@ -406,7 +406,7 @@
 //.#{$fa-css-prefix}-caret-square-o-left:before { content: $fa-var-caret-square-o-left; }
 //.#{$fa-css-prefix}-dot-circle-o:before { content: $fa-var-dot-circle-o; }
 //.#{$fa-css-prefix}-wheelchair:before { content: $fa-var-wheelchair; }
-//.#{$fa-css-prefix}-vimeo-square:before { content: $fa-var-vimeo-square; }
+.#{$fa-css-prefix}-vimeo-square:before { content: $fa-var-vimeo-square; }
 //.#{$fa-css-prefix}-turkish-lira:before,
 //.#{$fa-css-prefix}-try:before { content: $fa-var-try; }
 //.#{$fa-css-prefix}-plus-square-o:before { content: $fa-var-plus-square-o; }

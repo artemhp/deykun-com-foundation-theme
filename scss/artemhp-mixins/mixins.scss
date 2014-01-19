@@ -1,1 +1,19 @@
 @import "fonts";
+
+@mixin spriteBg($name, $spriteMap) {
+	display: inline-block;
+	width: image-width(sprite-file($spriteMap, $name));
+	height: image-height(sprite-file($spriteMap, $name));
+	background-image: sprite-url($spriteMap);
+	background-position: sprite-position($spriteMap, $name);
+	background-repeat: no-repeat;
+	vertical-align: text-top;
+}
+
+%verticalAlign {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}

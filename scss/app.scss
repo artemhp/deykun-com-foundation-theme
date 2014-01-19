@@ -1,3 +1,10 @@
 @import "artemhp-mixins/mixins";
 @import "font-awesome/font-awesome";
+
+@include customFont("Cuprum", false, false, false, false, "../../fonts/Cuprum/");
+@include customFont("Ubuntu", false, false, false, false, "../../fonts/Ubuntu/");
+
+@import "settings";
+@import "foundation";
+
 @import "custom";
