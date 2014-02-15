@@ -17,30 +17,6 @@ $spritesNews: sprite-map("../images/temp/news/*.png");
 	@include spriteBg(rocket, $spritesPromo);
 }
 
-.icon-news-1 {
-	@include spriteBg(news-1, $spritesNews);
-}
-
-.icon-news-2 {
-	@include spriteBg(news-2, $spritesNews);
-}
-
-.icon-news-3 {
-	@include spriteBg(news-3, $spritesNews);
-}
-
-.icon-news-4 {
-	@include spriteBg(news-4, $spritesNews);
-}
-
-.icon-news-5 {
-	@include spriteBg(news-5, $spritesNews);
-}
-
-.icon-news-6 {
-	@include spriteBg(news-6, $spritesNews);
-}
-
 // Redefine Top Bar font-sizes
 
 .top-bar-section {
