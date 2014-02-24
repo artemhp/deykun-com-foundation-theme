@@ -1,5 +1,6 @@
 /public/components/*
 /.sass-cache/*
 /.tmp/*
+./*.html
 /theme/*
 *.DS_Store
