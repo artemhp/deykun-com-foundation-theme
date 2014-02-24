@@ -1,5 +1,5 @@
-/bower_components/*
+/public/components/*
 /.sass-cache/*
+/.tmp/*
+/theme/*
 *.DS_Store
-/stylesheets/*
-/note_modules/*

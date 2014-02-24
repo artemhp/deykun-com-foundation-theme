@@ -1,7 +1,9 @@
+// Compile Template in "./theme" directory for correct images and js paths
+
 - loremBigText = File.open("lorem.txt").read
-- headerPic = ["./images/header/pic4.jpg", "./images/header/pic5.jpg"]
-- news = [Array({"img" => "images/temp/news/news-1.png"}), Array({"img" => "images/temp/news/news-2.png"}), Array({"img" => "images/temp/news/news-3.png"}), Array({"img" => "images/temp/news/news-4.png"})]
-- socexNet = ["fa-twitter-square", "fa-facebook-square", "fa-vk-square", "fa-linkedin-square", "fa-github-square", "fa-vimeo-square"]
+- headerPic = ["./img/pics/header/pic4.jpg", "./images/header/pic5.jpg"]
+- news = [Array({"img" => "./img/pics/temp/news/news-1.png"}), Array({"img" => "./img/pics/temp/news/news-2.png"}), Array({"img" => "./img/pics/temp/news/news-3.png"}), Array({"img" => "./img/pics/temp/news/news-4.png"})]
+- socNet = ["fa-twitter-square", "fa-facebook-square", "fa-vk-square", "fa-linkedin-square", "fa-github-square", "fa-vimeo-square"]
 - aboutMe = "about.me/artem.deykun"
 
 !!! 5
@@ -9,8 +11,8 @@
   %head
     %meta(charset="utf-8")
     %meta(name="viewport" content="width=device-width, initial-scale=1.0")
-    %title Theme For Wordpress Based on Foundation
-    %link(rel="stylesheet" href="stylesheets/app.css")
+    %title ArtemHP-Theme
+    %link(rel="stylesheet" href="./css/app.css")
   %body
     %header.header
       %ul(data-orbit)
@@ -49,7 +51,7 @@
           %div.top-article-content
             %p=loremBigText
         %div.small-5.columns
-          %img.th(src="./images/temp/top-article.png")
+          %img.th(src="./img/pics/temp/top-article.png")
       %div.blue-title
         %div.row
           %span.fa-lightbulb-o
@@ -58,7 +60,8 @@
         %ul.large-block-grid-2.medium-block-grid-2
           - news.each do |news|
             %li
-              %h3.last-notes-title Illum, omnis, tempora
+              %h3.last-notes-title
+                %a Illum, omnis, tempora
               %div.last-notes-date
                 %span.fa-calendar
                 16.01.1991
@@ -66,8 +69,8 @@
               %div.row
                 %div.small-4.column
                   %div.last-notes-img
-                    %div.th
-                      =news['img']
+                    %a.th
+                      %img(src="./img/pics/temp/news/news-1.png")
                 %div.small-8.column.last-notes-content
                   %p=loremBigText
       %div.blue-title
@@ -77,14 +80,14 @@
       %div.row
         %div.small-3.column
           %div.personal-photo
-            %img.th(src="images/photo/krit-portrait.jpg")
+            %img.th(src="./img/pics/photo/krit-portrait.jpg")
           %div.social-networks.text-center
             - socNet.each do |soc|
               %a(href="#")
                 %span(class=soc)
         %div.small-9.column
           - for i in 1..3
-            %p =loremBigText
+            %p=loremBigText
           %p.text-right
             %a(href="http://#{aboutMe}") #{aboutMe}
       %div.row.promo-banners
@@ -116,4 +119,4 @@
       %div.reveal-modal-scroll
         - for i in 1..5
           %p #{loremBigText}
-  %script(src="js/scripts.min.js")
+  %script(src="./js/scripts.min.js")

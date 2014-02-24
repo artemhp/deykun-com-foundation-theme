@@ -9,37 +9,30 @@ module.exports = function (grunt) {
                 src: [
                     'bower_components/modernizr/modernizr.js',
                     'bower_components/jquery/jquery.js',
-                    'bower_components/foundation/js/foundation.min.js',
+                    'bower_components/foundation/js/foundation.js',
                     'js/app.js'
                 ],
-                dest: 'js/scripts.js'
+                dest: './theme/js/scripts.js'
             }
         },
 
         uglify: {
             build: {
-                src: 'js/scripts.js',
-                dest: 'js/scripts.min.js'
-            }
-        },
-
-        connect: {
-            server:{
-                options: {
-                    port: 8888,
-                    keepalive: true
-                }
+                src: './theme/js/scripts.js',
+                dest: './theme/js/scripts.min.js'
             }
         },
 
         imagemin: {
             dynamic: {
-                files: [{
-                    expand: true,
-                    cwd: './images/',
-                    src: ['**/*.png'],
-                    dest: './images/'
-                }]
+                files: [
+                    {
+                        expand: true,
+                        cwd: './images/',
+                        src: ['**/*.{png,jpg,gif}'],
+                        dest: './theme/img'
+                    }
+                ]
             }
         }
 
@@ -49,11 +42,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    // grunt.loadNpmTasks('grunt-contrib-connect');
 
 
-    grunt.registerTask('default', ['concat', 'uglify']);
-
+    grunt.registerTask('default', ['concat', 'uglify', 'imagemin']);
 
 
 };

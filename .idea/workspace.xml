@@ -5,11 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c49046-919b-479f-8c2d-40b0c847194b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.tmp/concat/styles/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.tmp/styles/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.tmp/concat/scripts/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.tmp/concat/scripts/vendor.js" />
+      <change type="DELETED" beforePath="D:\Projects\deykun.com\theme\images\promo-s37280512fe.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Projects\deykun.com\theme\images\temp\news-sb187d6a7bd.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="$PROJECT_DIR$/.bowerrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_custom.scss" afterPath="$PROJECT_DIR$/scss/_custom.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_settings.scss" afterPath="$PROJECT_DIR$/scss/_settings.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.rb" afterPath="$PROJECT_DIR$/config.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.haml" afterPath="$PROJECT_DIR$/home.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\Projects\deykun.com\theme\images\global\noise-bg.png" afterPath="$PROJECT_DIR$/images/pics/global/noise-bg.png" />
+      <change type="MOVED" beforePath="D:\Projects\deykun.com\theme\images\header\pic4.jpg" afterPath="$PROJECT_DIR$/images/pics/header/pic4.jpg" />
+      <change type="MOVED" beforePath="D:\Projects\deykun.com\theme\images\header\pic5.jpg" afterPath="$PROJECT_DIR$/images/pics/header/pic5.jpg" />
+      <change type="MOVED" beforePath="D:\Projects\deykun.com\theme\images\photo\krit-portrait.jpg" afterPath="$PROJECT_DIR$/images/pics/photo/krit-portrait.jpg" />
+      <change type="MOVED" beforePath="D:\Projects\deykun.com\theme\images\promo\earth.png" afterPath="$PROJECT_DIR$/images/sprites/earth.png" />
+      <change type="MOVED" beforePath="D:\Projects\deykun.com\theme\images\promo\html5.png" afterPath="$PROJECT_DIR$/images/sprites/html5.png" />
+      <change type="MOVED" beforePath="D:\Projects\deykun.com\theme\images\promo\notes.png" afterPath="$PROJECT_DIR$/images/sprites/notes.png" />
+      <change type="MOVED" beforePath="D:\Projects\deykun.com\theme\images\promo\rocket.png" afterPath="$PROJECT_DIR$/images/sprites/rocket.png" />
+      <change type="MOVED" beforePath="D:\Projects\deykun.com\theme\images\temp\news\news-1.png" afterPath="$PROJECT_DIR$/images/pics/temp/news/news-1.png" />
+      <change type="MOVED" beforePath="D:\Projects\deykun.com\theme\images\temp\news\news-2.png" afterPath="$PROJECT_DIR$/images/pics/temp/news/news-2.png" />
+      <change type="MOVED" beforePath="D:\Projects\deykun.com\theme\images\temp\news\news-3.png" afterPath="$PROJECT_DIR$/images/pics/temp/news/news-3.png" />
+      <change type="MOVED" beforePath="D:\Projects\deykun.com\theme\images\temp\news\news-4.png" afterPath="$PROJECT_DIR$/images/pics/temp/news/news-4.png" />
+      <change type="MOVED" beforePath="D:\Projects\deykun.com\theme\images\temp\news\news-5.png" afterPath="$PROJECT_DIR$/images/pics/temp/news/news-5.png" />
+      <change type="MOVED" beforePath="D:\Projects\deykun.com\theme\images\temp\news\news-6.png" afterPath="$PROJECT_DIR$/images/pics/temp/news/news-6.png" />
+      <change type="MOVED" beforePath="D:\Projects\deykun.com\theme\images\temp\top-article.png" afterPath="$PROJECT_DIR$/images/pics/temp/top-article.png" />
     </list>
     <ignored path="theme.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,124 +62,98 @@
     <favorites_list name="theme" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.2370518">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="338" column="12" selection-start="15419" selection-end="15419" vertical-scroll-proportion="0.0" vertical-offset="5065" max-vertical-offset="6018">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/home.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="home.haml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/home.haml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="39" selection-start="826" selection-end="826" vertical-scroll-proportion="-0.0" vertical-offset="272" max-vertical-offset="2108">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bower.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="41" selection-start="142" selection-end="142" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="238">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="2" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1088">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/package.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="19" selection-start="331" selection-end="331" vertical-scroll-proportion="0.38202247" vertical-offset="0" max-vertical-offset="534">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_core.scss" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/font-awesome/_core.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="0" selection-start="57" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="323">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_icons.scss" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/font-awesome/_icons.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7106">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_variables.scss" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/font-awesome/_variables.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6579">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="font-awesome.scss" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/font-awesome/font-awesome.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="16" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_custom.scss" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/_custom.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="99" column="18" selection-start="1620" selection-end="1620" vertical-scroll-proportion="0.0" vertical-offset="1463" max-vertical-offset="4471">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="home.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="74" selection-start="74" selection-end="74" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2159">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="40" selection-start="42" selection-end="42" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="238">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="25" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="19" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="289">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="10" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="935">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="5" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0609319" vertical-offset="0" max-vertical-offset="558">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".bowerrc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.bowerrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_custom.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/_custom.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="38" selection-start="327" selection-end="327" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="4573">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_settings.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/_settings.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="2" selection-start="29" selection-end="29" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="17102">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="17" selection-start="296" selection-end="296" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -166,22 +171,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/js/scripts.js" />
-        <option value="$PROJECT_DIR$/bower_components/foundation/js/foundation.min.js" />
-        <option value="$PROJECT_DIR$/config.rb" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/scss/artemhp-mixins/mixins.scss" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/input.haml" />
         <option value="$PROJECT_DIR$/data.txt" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/scss/_custom.scss" />
         <option value="$PROJECT_DIR$/scss/app.scss" />
         <option value="$PROJECT_DIR$/scss/font-awesome/font-awesome.scss" />
         <option value="$PROJECT_DIR$/home.html" />
-        <option value="$PROJECT_DIR$/home.haml" />
+        <option value="$PROJECT_DIR$/.bowerrc" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/config.rb" />
+        <option value="$PROJECT_DIR$/scss/_settings.scss" />
+        <option value="$PROJECT_DIR$/scss/_custom.scss" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/home.haml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -233,6 +238,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -251,37 +257,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,10 +275,20 @@
       <recent name="D:\Projects\deykun.com\theme\scss\font-awesome" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\deykun.com\theme\images\pics" />
+      <recent name="D:\Projects\deykun.com\theme\theme" />
       <recent name="D:\Projects\deykun.com\theme\images\header" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -312,23 +299,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -357,7 +336,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25241995" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25241995" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907662" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -386,9 +365,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16827998" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -403,49 +382,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.ssh/id_rsa.pub">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="402" selection-end="402" vertical-scroll-proportion="0.03107861" vertical-offset="0" max-vertical-offset="547" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lorem.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="442" selection-start="0" selection-end="539" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="979" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="338" column="12" selection-start="15419" selection-end="15419" vertical-scroll-proportion="0.0" vertical-offset="5065" max-vertical-offset="6018">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="635" column="0" selection-start="21154" selection-end="21154" vertical-scroll-proportion="0.0" vertical-offset="10604" max-vertical-offset="17102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_custom.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="18" selection-start="1620" selection-end="1620" vertical-scroll-proportion="0.0" vertical-offset="1463" max-vertical-offset="4471">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/font-awesome/_core.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="57" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="323">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/font-awesome/_icons.scss">
@@ -464,49 +403,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/font-awesome/font-awesome.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
+        <state line="12" column="16" selection-start="352" selection-end="352" vertical-scroll-proportion="0.2071066" vertical-offset="0" max-vertical-offset="985">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
+    <entry file="file://$PROJECT_DIR$/public/components/fastclick/.bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="530">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home.haml">
+    <entry file="file://$PROJECT_DIR$/public/components/foundation/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="39" selection-start="826" selection-end="826" vertical-scroll-proportion="-0.0" vertical-offset="272" max-vertical-offset="2108">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="25" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="2" selection-start="29" selection-end="29" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="17102">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="296" selection-end="296" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="38" selection-start="327" selection-end="327" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="4573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="41" selection-start="142" selection-end="142" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="238">
+        <state line="1" column="40" selection-start="42" selection-end="42" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="238">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="2" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1088">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+        <state line="23" column="10" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="331" selection-end="331" vertical-scroll-proportion="0.38202247" vertical-offset="0" max-vertical-offset="534">
+        <state line="1" column="19" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="74" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="5" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0609319" vertical-offset="0" max-vertical-offset="558">
           <folding />
         </state>
       </provider>

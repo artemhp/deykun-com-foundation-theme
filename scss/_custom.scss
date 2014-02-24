@@ -1,20 +1,19 @@
 @import "artemhp-mixins/mixins";
 @import "settings";
 
-$spritesPromo: sprite-map("../images/promo/*.png");
-$spritesNews: sprite-map("../images/temp/news/*.png");
+$sprites: sprite-map("./sprites/*.png");
 
 .icon-promoEarth {
-	@include spriteBg(earth, $spritesPromo);
+	@include spriteBg(earth, $sprites);
 }
 .icon-promoNotes {
-	@include spriteBg(notes, $spritesPromo);
+	@include spriteBg(notes, $sprites);
 }
 .icon-promoHtml5 {
-	@include spriteBg(html5, $spritesPromo);
+	@include spriteBg(html5, $sprites);
 }
 .icon-promoRocket {
-	@include spriteBg(rocket, $spritesPromo);
+	@include spriteBg(rocket, $sprites);
 }
 
 // Redefine Top Bar font-sizes
@@ -112,6 +111,13 @@ h2 {
 
 .last-notes-title {
 	line-height: 1;
+	> a {
+		color: #303030;
+		display: block;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 }
 
 .last-notes-date {
