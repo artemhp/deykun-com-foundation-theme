@@ -1,6 +1,6 @@
-# Foundation Compass Template
+# Developing theme for my blog
 
-The easiest way to get started with Foundation + Compass.
+Technologies: CSS3, HTML5, JavScript
 
 ## Requirements
 

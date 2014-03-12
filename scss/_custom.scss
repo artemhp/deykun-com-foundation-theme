@@ -6,12 +6,15 @@ $sprites: sprite-map("./sprites/*.png");
 .icon-promoEarth {
 	@include spriteBg(earth, $sprites);
 }
+
 .icon-promoNotes {
 	@include spriteBg(notes, $sprites);
 }
+
 .icon-promoHtml5 {
 	@include spriteBg(html5, $sprites);
 }
+
 .icon-promoRocket {
 	@include spriteBg(rocket, $sprites);
 }
@@ -41,20 +44,19 @@ h2 {
 // Redefine sliders resize of image inside
 .header {
 	.orbit-container {
+		background: #c0c0c0;
 		.orbit-slides-container {
 			img {
-				max-width: none;
 				margin: 0 auto;
+				max-width: none;
 			}
 		}
-	//		height: rem-calc(150);
-		background: #c0c0c0;
 	}
 }
 
 .top-article {
-	margin-bottom: rem-calc(40);
 	margin-top: rem-calc(40);
+	margin-bottom: rem-calc(40);
 	h2 {
 		margin-top: 0;
 		line-height: 1;
@@ -64,22 +66,22 @@ h2 {
 .top-article-date {
 	position: relative;
 	margin-top: rem-calc(5);
+	padding-top: rem-calc(4);
+	color: #fff;
 	text-align: center;
 	font-size: rem-calc(14);
-	color: #fff;
-	padding-top: rem-calc(4);
 	.month {
 		font-weight: bold;
 	}
 	&:before {
-		font-size: rem-calc(90);
-		color: #c82a10;
 		position: absolute;
 		top: 0;
-		width: 100%;
-		text-align: center;
-		display: block;
 		z-index: -1;
+		display: block;
+		width: 100%;
+		color: #c82a10;
+		text-align: center;
+		font-size: rem-calc(90);
 	}
 }
 
@@ -88,23 +90,25 @@ h2 {
 }
 
 .blue-title {
+	margin-bottom: rem-calc(20);
+	padding-right: rem-calc(15);
+	padding-left: rem-calc(15);
 	background: $topbar-bg-color;
 	color: #fff;
-	margin-bottom: rem-calc(20);
 	> .row {
 		padding-top: rem-calc(3);
 		padding-bottom: rem-calc(3);
 		> [class*="#{$fa-css-prefix}"] {
-			font-size: rem-calc(38);
-			float: left;
 			display: block;
+			float: left;
 			margin-right: rem-calc(25);
+			font-size: rem-calc(38);
 		}
 		> h2 {
-			font-size: rem-calc(21);
-			color: #fff;
-			padding-top: rem-calc(4);
 			margin-bottom: 0;
+			padding-top: rem-calc(4);
+			color: #fff;
+			font-size: rem-calc(21);
 		}
 	}
 }
@@ -112,8 +116,8 @@ h2 {
 .last-notes-title {
 	line-height: 1;
 	> a {
-		color: #303030;
 		display: block;
+		color: #303030;
 		&:hover {
 			text-decoration: underline;
 		}
@@ -121,9 +125,9 @@ h2 {
 }
 
 .last-notes-date {
-	font-size: rem-calc(16);
-	color: #c82a10;
 	margin-bottom: rem-calc(15);
+	color: #c82a10;
+	font-size: rem-calc(16);
 	.fa-user {
 		margin-left: rem-calc(20);
 	}
@@ -143,6 +147,7 @@ h2 {
 
 .social-networks {
 	margin-top: rem-calc(15);
+	margin-bottom: rem-calc(15);
 	font-size: rem-calc(34);
 	> a {
 		color: lighten($body-font-color, 20%);
@@ -158,9 +163,9 @@ h2 {
 		background: #f3f3f3;
 	}
 	> h3 {
-		font-family: Cuprum, san-sarif;
 		color: inherit;
 		font-size: rem-calc(36);
+		font-family: Cuprum, san-sarif;
 	}
 }
 
@@ -187,59 +192,69 @@ h2 {
 
 .wrap-quote {
 	margin-top: rem-calc(80);
+	margin-bottom: rem-calc(45);
 	font-style: italic;
 	font-family: Times New Roman, Times, serif;
-	margin-bottom: rem-calc(45);
 	> blockquote {
 		border-left: none;
 		text-align: center;
 		> p {
-			line-height: 1.4;
 			color: #303030;
 			font-size: rem-calc(26px);
-			&:before {
-				font-family: FontAwesome;
-				font-size: rem-calc(48px);
-				content: $fa-var-quote-left;
-				position: absolute;
-				top: 5px;
-				left: rem-calc(-45px);
-				color: $topbar-bg-color;
-			}
-			&:after {
-				font-family: FontAwesome;
-				content: $fa-var-quote-right;
-				position: absolute;
-				bottom: 0;
-				right: rem-calc(-45px);;
-				font-size: rem-calc(48px);
-				color: $topbar-bg-color;
+			line-height: 1.4;
+			@media #{$medium-up} {
+				&:before {
+					position: absolute;
+					top: 5px;
+					left: rem-calc(-45px);
+					color: $topbar-bg-color;
+					content: $fa-var-quote-left;
+					font-size: rem-calc(48px);
+					font-family: FontAwesome;
+				}
+				&:after {
+					position: absolute;
+					right: rem-calc(-45px);
+					bottom: 0;
+					color: $topbar-bg-color;
+					content: $fa-var-quote-right;
+					font-size: rem-calc(48px);
+					font-family: FontAwesome;;
+				}
 			}
 		}
 		> footer {
+			color: $topbar-bg-color;
 			font-weight: bold;
 			font-size: rem-calc(28px);
-			color: $topbar-bg-color;
 		}
 	}
 }
 
 .footer {
-	background-color: $topbar-bg-color;
 	padding-top: rem-calc(40);
 	padding-right: rem-calc(40);
-	padding-left: rem-calc(40);
 	padding-bottom: rem-calc(20);
+	padding-left: rem-calc(40);
+	background-color: $topbar-bg-color;
 }
 
 .footer-menu {
-	list-style-type: none;
 	margin-left: rem-calc(25);
-	> li > a {
-		color: lighten($topbar-bg-color, 50%);
-		&:hover {
-			color: #fff;
-			text-decoration: underline;
+	list-style-type: none;
+	> li {
+		> a {
+			display: block;
+			padding-top: rem-calc(3px);
+			padding-right: rem-calc(3px);
+			padding-bottom: rem-calc(3px);
+			padding-left: rem-calc(10px);
+			color: lighten($topbar-bg-color, 50%);
+			&:hover {
+				background: lighten($topbar-bg-color, 5%);
+				color: #fff;
+				text-decoration: none;
+			}
 		}
 	}
 }
@@ -254,11 +269,17 @@ h2 {
 
 .copyright {
 	color: #fff;
+	opacity: 0.4;
 	cursor: pointer;
 }
 
 .reveal-modal-scroll {
 	overflow-y: auto;
-	max-height: rem-calc(385);
 	padding-right: rem-calc(30);
+	max-height: rem-calc(385);
+}
+
+main > .row {
+	padding-right: rem-calc(15);
+	padding-left: rem-calc(15);
 }

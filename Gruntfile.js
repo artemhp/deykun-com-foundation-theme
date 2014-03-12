@@ -7,44 +7,38 @@ module.exports = function (grunt) {
         concat: {
             dist: {
                 src: [
-                    'bower_components/modernizr/modernizr.js',
-                    'bower_components/jquery/jquery.js',
-                    'bower_components/foundation/js/foundation.js',
-                    'js/app.js'
+                    './public/components/jquery/dist/jquery.js',
+                    './public/components/modernizr/modernizr.js',
+                    './public/components/foundation/js/foundation.js',
+                    './js/app.js'
                 ],
-                dest: './theme/js/scripts.js'
+                dest: '../build/js/scripts.js'
             }
         },
 
         uglify: {
             build: {
-                src: './theme/js/scripts.js',
-                dest: './theme/js/scripts.min.js'
+                src: '../build/js/scripts.js',
+                dest: '../build/js/scripts.min.js'
             }
         },
 
-        imagemin: {
-            dynamic: {
-                files: [
-                    {
-                        expand: true,
-                        cwd: './images/',
-                        src: ['**/*.{png,jpg,gif}'],
-                        dest: './theme/img'
-                    }
-                ]
+        smushit: {
+            mygroup: {
+                src: ['images/**/*.png','images/**/*.jpg'],
+                dest: '../build/img'
             }
         }
 
     });
 
 
-    grunt.loadNpmTasks('grunt-contrib-imagemin');
+    grunt.loadNpmTasks('grunt-smushit');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
 
 
-    grunt.registerTask('default', ['concat', 'uglify', 'imagemin']);
+    grunt.registerTask('default', ['concat', 'uglify', 'smushit']);
 
 
 };
