@@ -1,39 +1,22 @@
 # Developing theme for my blog
-
 Technologies: CSS3, HTML5, JavScript
 
 ## Requirements
 
-  * Ruby 1.9+
-  * [Node.js](http://nodejs.org)
-  * [compass](http://compass-style.org/): `gem install compass`
-  * [bower](http://bower.io): `npm install bower -g`
+  * Ruby 2.0.0
+  * SASS 3.3
+  * node.js 1.3.14
+  * Compass 0.12.3
+  * Bower 1.3.0
 
 ## Quickstart
 
-  * [Download this starter compass project and unzip it](https://github.com/zurb/foundation-compass-template/archive/master.zip)
-  * Run `bower install` to install the latest version of Foundation
-  
-Then when you're working on your project, just run the following command:
+Install requirements soft described above.
+
+Then navigate to the direcotry with project and just run the following commands:
 
 ```bash
-compass watch
-```
-
-## Upgrading
-
-If you'd like to upgrade to a newer v+
-
-
-
-
-
-
-
-
-
-63.ersion of Foundation down the road just run:
-
-```bash
-bower update
+npm install
+bower install
+grunt
 ```
