@@ -1,5 +1,5 @@
-# Developing theme for my blog
-Technologies: CSS3, HTML5, JavScript
+# ArtemHP Theme
+Technologies: css3, html5, javascript, grunts, sass/scss + compass, bower, node.js, haml
 
 ## Requirements
 
