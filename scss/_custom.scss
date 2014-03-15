@@ -42,14 +42,31 @@ h2 {
 }
 
 // Redefine sliders resize of image inside
+
+.aSlider {
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	height: rem-calc(300);
+	list-style-type: none;
+	> li {
+		position: absolute;
+		top: 0;
+		height: inherit;
+		> img {
+			max-width: none;
+		}
+	}
+}
+
 .header {
 	.orbit-container {
 		background: #c0c0c0;
-		.orbit-slides-container {
-			img {
-				margin: 0 auto;
-				max-width: none;
-			}
+	}
+	.orbit-slides-container {
+		img {
+			max-width: none;
+			margin: 0 auto;
 		}
 	}
 }
@@ -87,6 +104,7 @@ h2 {
 
 .top-article-content {
 	line-height: 1.5;
+
 }
 
 .blue-title {

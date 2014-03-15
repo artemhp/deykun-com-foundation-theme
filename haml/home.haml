@@ -1,6 +1,6 @@
 // Compile Template in "./theme" directory for correct images and js paths
-- loremBigText = File.open("lorem.txt").read
-- headerPic = ["./img/pics/header/pic4.jpg", "./img/pics/header/pic5.jpg"]
+- loremBigText = File.open("haml/lorem.txt").read
+- headerPic = ["./img/pics/header/pic1.jpg", "./img/pics/header/pic2.jpg"]
 - news = [Array({"img" => "./img/pics/temp/news/news-1.png"}), Array({"img" => "./img/pics/temp/news/news-2.png"}), Array({"img" => "./img/pics/temp/news/news-3.png"}), Array({"img" => "./img/pics/temp/news/news-4.png"})]
 - socNet = ["fa-twitter-square", "fa-facebook-square", "fa-vk-square", "fa-linkedin-square", "fa-github-square", "fa-vimeo-square"]
 - aboutMe = "about.me/artem.deykun"
@@ -14,7 +14,7 @@
     %link(rel="stylesheet" href="./css/app.css")
   %body
     %header.header
-      %ul(data-orbit)
+      %ul.aSlider(data-aSlider)
         - headerPic.each do |headerSrc|
           %li
             %img(src=headerSrc)

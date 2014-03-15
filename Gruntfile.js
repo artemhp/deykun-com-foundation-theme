@@ -25,8 +25,49 @@ module.exports = function (grunt) {
 
         smushit: {
             mygroup: {
-                src: ['images/**/*.png','images/**/*.jpg'],
+                src: ['images/**/*.png', 'images/**/*.jpg'],
                 dest: '../build/img'
+            }
+        },
+
+        haml: {
+            'ruby_html': {
+                options: {
+                    language: 'ruby'
+                },
+                files: {
+                    '../build/home.html': './haml/home.haml'
+                }
+            }
+        },
+
+        sass: {
+            dist: {
+                files: [
+                    {
+                        '../build/css/app.css': 'scss/app.scss'
+                    }
+                ]
+            },
+            options: {
+                compass: true
+            }
+        },
+
+        watch: {
+            haml: {
+                files: ['haml/*.haml'],
+                tasks: ['haml'],
+                options: {
+                    spawn: false
+                }
+            },
+            sass: {
+                files: ['scss/*.scss'],
+                tasks: ['sass'],
+                options: {
+                    spawn: false
+                }
             }
         }
 
@@ -36,9 +77,11 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-smushit');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-haml');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-sass');
 
-
-    grunt.registerTask('default', ['concat', 'uglify', 'smushit']);
+    grunt.registerTask('default', ['concat', 'uglify', 'smushit', 'haml', 'sass']);
 
 
 };

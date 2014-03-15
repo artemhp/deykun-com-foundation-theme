@@ -5,6 +5,6 @@
 @include customFont("Ubuntu", false, false, false, false, "../../fonts/Ubuntu/");
 
 @import "settings";
-@import "foundation";
+@import "../public/components/foundation/scss/foundation";
 
 @import "custom";
