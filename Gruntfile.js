@@ -12,21 +12,21 @@ module.exports = function (grunt) {
                     './public/components/foundation/js/foundation.js',
                     './js/app.js'
                 ],
-                dest: '../build/js/scripts.js'
+                dest: './build/js/scripts.js'
             }
         },
 
         uglify: {
             build: {
-                src: '../build/js/scripts.js',
-                dest: '../build/js/scripts.min.js'
+                src: './build/js/scripts.js',
+                dest: './build/js/scripts.min.js'
             }
         },
 
         smushit: {
             mygroup: {
                 src: ['images/**/*.png', 'images/**/*.jpg'],
-                dest: '../build/img'
+                dest: './build/img'
             }
         },
 
@@ -36,7 +36,7 @@ module.exports = function (grunt) {
                     language: 'ruby'
                 },
                 files: {
-                    '../build/home.html': './haml/home.haml'
+                    './build/home.html': './haml/home.haml'
                 }
             }
         },
@@ -45,7 +45,7 @@ module.exports = function (grunt) {
             dist: {
                 files: [
                     {
-                        '../build/css/app.css': 'scss/app.scss'
+                        './build/css/app.css': 'scss/app.scss'
                     }
                 ]
             },
