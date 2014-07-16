@@ -4,10 +4,11 @@
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-connect": "~0.8.0",
+    "grunt-contrib-sass": "~0.7.3",
     "grunt-contrib-uglify": "~0.2.7",
-    "grunt-smushit": "~1.2.0",
-    "grunt-haml": "~0.9.0",
     "grunt-contrib-watch": "~0.6.0",
-    "grunt-contrib-sass": "~0.7.3"
+    "grunt-haml": "~0.9.0",
+    "grunt-smushit": "~1.2.0"
   }
 }
