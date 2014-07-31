@@ -3,10 +3,9 @@
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 
-@import "../artemhp-mixins/mixins";
+//customFont($fontName, $fileName1, $fileName2: false, $fileName3: false, $fileName4: false, $path: "../fonts/")
 
-@include customFont("FontAwesome", false, false, false, false, "../../fonts/font-awesome/");
-
+@include customFont("FontAwesome", "fontawesome-webfont", false, false, false, "../fonts/font-awesome/");
 
 @import "variables";
 @import "core";

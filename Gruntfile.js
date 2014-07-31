@@ -36,7 +36,7 @@ module.exports = function (grunt) {
 					language: 'ruby'
 				},
 				files: {
-					'./build/home.html': './haml/index.haml'
+					'./build/index.html': './haml/index.haml'
 				}
 			}
 		},
@@ -54,6 +54,15 @@ module.exports = function (grunt) {
 			}
 		},
 
+		copy: {
+			main: {
+				files: [
+					// includes files within path
+					{src: ['./fonts/**'], dest: './build/'}
+				]
+			}
+		},
+
 		connect: {
 			server: {
 				options: {
@@ -61,6 +70,18 @@ module.exports = function (grunt) {
 					hostname: "127.0.0.1",
 					base: './build',
 					keepalive: true
+				}
+			}
+		},
+
+		htmlmin: {
+			options: {
+				removeComments: true,
+				collapseWhitespace: true
+			},
+			compile: {
+				files: {
+					'build/index.html': ['build/index.html']
 				}
 			}
 		},
@@ -74,7 +95,7 @@ module.exports = function (grunt) {
 				}
 			},
 			sass: {
-				files: ['scss/*.scss'],
+				files: '**/*.scss',
 				tasks: ['sass'],
 				options: {
 					spawn: false
@@ -91,8 +112,10 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-haml');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-sass');
+	grunt.loadNpmTasks('grunt-contrib-htmlmin');
+	grunt.loadNpmTasks('grunt-contrib-copy');
 
-	grunt.registerTask('default', ['concat', 'uglify', 'smushit', 'haml', 'sass']);
+	grunt.registerTask('default', ['concat', 'uglify', 'smushit', 'haml', 'sass', 'htmlmin', 'copy']);
 
 
 };

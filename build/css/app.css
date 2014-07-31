@@ -2,6 +2,13 @@
  *  Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "FontAwesome";
+  src: url("../fonts/font-awesome/fontawesome-webfont.eot");
+  src: url("../fonts/font-awesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/font-awesome/fontawesome-webfont.woff") format("woff"), url("../fonts/font-awesome/fontawesome-webfont.ttf") format("truetype"), url("../fonts/font-awesome/fontawesome-webfont.svg#fontawesome-webfont") format("svg"); }
+
 [class*="fa"]:before {
   display: inline-block;
   font-family: FontAwesome;
@@ -58,6 +65,34 @@
 .fa-vimeo-square:before {
   content: "\f194"; }
 
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "Cuprum";
+  src: url("../fonts/Cuprum/cuprum-webfont.eot");
+  src: url("../fonts/Cuprum/cuprum-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Cuprum/cuprum-webfont.woff") format("woff"), url("../fonts/Cuprum/cuprum-webfont.ttf") format("truetype"), url("../fonts/Cuprum/cuprum-webfont.svg#cuprum-webfont") format("svg"); }
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "UbuntuFont";
+  src: url("../fonts/Ubuntu/ubuntu-regular-webfont.eot");
+  src: url("../fonts/Ubuntu/ubuntu-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu/ubuntu-regular-webfont.woff") format("woff"), url("../fonts/Ubuntu/ubuntu-regular-webfont.ttf") format("truetype"), url("../fonts/Ubuntu/ubuntu-regular-webfont.svg#ubuntu-regular-webfont") format("svg"); }
+
+@font-face {
+  font-weight: bold;
+  font-style: normal;
+  font-family: "UbuntuFont";
+  src: url("../fonts/Ubuntu/ubuntu-bold-webfont.eot");
+  src: url("../fonts/Ubuntu/ubuntu-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu/ubuntu-bold-webfont.woff") format("woff"), url("../fonts/Ubuntu/ubuntu-bold-webfont.ttf") format("truetype"), url("../fonts/Ubuntu/ubuntu-bold-webfont.svg#ubuntu-bold-webfont") format("svg"); }
+
+@font-face {
+  font-weight: normal;
+  font-style: italic;
+  font-family: "UbuntuFont";
+  src: url("../fonts/Ubuntu/ubuntu-italic-webfont.eot");
+  src: url("../fonts/Ubuntu/ubuntu-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu/ubuntu-italic-webfont.woff") format("woff"), url("../fonts/Ubuntu/ubuntu-italic-webfont.ttf") format("truetype"), url("../fonts/Ubuntu/ubuntu-italic-webfont.svg#ubuntu-italic-webfont") format("svg"); }
+
 meta.foundation-version {
   font-family: "/5.2.3/"; }
 
@@ -103,7 +138,7 @@ body {
   color: #303030;
   padding: 0;
   margin: 0;
-  font-family: Ubuntu, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: UbuntuFont, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1187,7 +1222,7 @@ select {
       color: #222222;
       padding: 0.88889rem;
       display: block;
-      font-family: Ubuntu, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: UbuntuFont, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 0.88889rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
         background: #e3e3e3; }
@@ -1606,7 +1641,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: Ubuntu, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: UbuntuFont, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.11111rem;
@@ -2934,7 +2969,7 @@ kbd {
 
 .label {
   font-weight: normal;
-  font-family: Ubuntu, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: UbuntuFont, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -3309,7 +3344,7 @@ ul.pagination {
     color: #eeeeee;
     font-weight: normal;
     font-size: 0.88889rem;
-    font-family: Ubuntu, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: UbuntuFont, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
   .pricing-table .price {
     background-color: #f6f6f6;
     padding: 0.83333rem 1.11111rem;
@@ -3317,7 +3352,7 @@ ul.pagination {
     color: #333333;
     font-weight: normal;
     font-size: 1.77778rem;
-    font-family: Ubuntu, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: UbuntuFont, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
   .pricing-table .description {
     background-color: white;
     padding: 0.83333rem;
@@ -3557,7 +3592,7 @@ dialog[open] {
   padding: 0.77778rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: Ubuntu, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+  font-family: UbuntuFont, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
   .side-nav li {
     margin: 0 0 0.38889rem 0;
     font-size: 0.77778rem; }
@@ -3572,7 +3607,7 @@ dialog[open] {
     .side-nav li.active > a:first-child:not(.button) {
       color: #1cc7ff;
       font-weight: normal;
-      font-family: Ubuntu, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+      font-family: UbuntuFont, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
     .side-nav li.divider {
       border-top: 1px solid;
       height: 0;
@@ -3680,7 +3715,7 @@ dialog[open] {
     display: inline;
     margin-left: 0.88889rem;
     margin-bottom: 0.55556rem;
-    font-family: Ubuntu, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: UbuntuFont, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-size: 0.77778rem;
     color: #999999; }
@@ -4016,7 +4051,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: Ubuntu, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: UbuntuFont, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -4300,7 +4335,7 @@ blockquote p {
       background: #efefef;
       color: #222222;
       padding: 0.88889rem 1.77778rem;
-      font-family: Ubuntu, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: UbuntuFont, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 0.88889rem; }
       .tabs dd > a:hover, .tabs .tab-title > a:hover {
         background: #e1e1e1; }
@@ -5517,13 +5552,10 @@ th.hide-for-touch {
   background-repeat: no-repeat;
   vertical-align: text-top; }
 
-.top-bar-section ul.dropdown > li > a {
-  font-size: 0.88889rem; }
-
-h2 {
-  font-family: Cuprum, san-sarif; }
-  h2 > a {
-    color: inherit; }
+.top-bar-section {
+  text-shadow: 0 1px #000; }
+  .top-bar-section ul.dropdown > li > a {
+    font-size: 0.88889rem; }
 
 .aSlider {
   position: relative;
@@ -5547,9 +5579,13 @@ h2 {
 .top-article {
   margin-top: 2.22222rem;
   margin-bottom: 2.22222rem; }
-  .top-article h2 {
-    margin-top: 0;
-    line-height: 1; }
+
+.top-article-title {
+  margin-top: 0;
+  line-height: 1;
+  font-family: Cuprum, san-sarif;
+  font-size: 2.33333rem;
+  text-shadow: 0 1px #fff; }
 
 .top-article-date {
   position: relative;
@@ -5558,6 +5594,8 @@ h2 {
   color: #fff;
   text-align: center;
   font-size: 0.77778rem; }
+  .top-article-date > div:first-child {
+    margin-top: 0.44444rem; }
   .top-article-date .month {
     font-weight: bold; }
   .top-article-date:before {
@@ -5577,7 +5615,7 @@ h2 {
   margin-bottom: 1.11111rem;
   padding-right: 0.83333rem;
   padding-left: 0.83333rem;
-  background: #30639a;
+  background-color: #30639a;
   color: #fff; }
   .blue-title > .row {
     padding-top: 0.16667rem;
@@ -5586,12 +5624,14 @@ h2 {
       display: block;
       float: left;
       margin-right: 1.38889rem;
-      font-size: 2.11111rem; }
-    .blue-title > .row > h2 {
+      font-size: 2.11111rem;
+      text-shadow: 0 1px 0 #000; }
+    .blue-title > .row > h1 {
       margin-bottom: 0;
-      padding-top: 0.22222rem;
+      font-family: Cuprum;
       color: #fff;
-      font-size: 1.16667rem; }
+      text-shadow: 0 1px 0 #000;
+      font-size: 1.33333rem; }
 
 .last-notes-title {
   line-height: 1; }

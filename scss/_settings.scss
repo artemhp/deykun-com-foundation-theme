@@ -37,7 +37,7 @@ $column-gutter: rem-calc(20);
 // We use these to control various global styles
  $body-bg: #f3f3f3 inline-image("./pics/global/noise-bg.png");
  $body-font-color: #303030;
- $body-font-family: Ubuntu, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+ $body-font-family: UbuntuFont, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
  $anchor-font-color: #f16529;
  $anchor-font-color-hover: lighten($anchor-font-color, 10%);
  $anchor-text-decoration-hover: underline;
@@ -937,7 +937,7 @@ $column-gutter: rem-calc(20);
  $topbar-bg: $topbar-bg-color;
 
 // Height and margin
- // $topbar-height: 50px;
+  $topbar-height: 45px;
 // $topbar-margin-bottom: 0;
 
 // Control Input height for top bar

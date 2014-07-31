@@ -1,8 +1,9 @@
 @import "artemhp-mixins/mixins";
 @import "font-awesome/font-awesome";
 
-@include customFont("Cuprum", false, false, false, false, "../../fonts/Cuprum/");
-@include customFont("Ubuntu", false, false, false, false, "../../fonts/Ubuntu/");
+//customFont($fontName, $fileName1, $fileName2: false, $fileName3: false, $fileName4: false, $path: "../fonts/")
+@include customFont("Cuprum", "cuprum-webfont", false, false, false, "../fonts/Cuprum/");
+@include customFont("UbuntuFont", "ubuntu-regular-webfont", "ubuntu-bold-webfont", "ubuntu-italic-webfont", false, "../fonts/Ubuntu/");
 
 @import "settings";
 @import "../public/components/foundation/scss/foundation";

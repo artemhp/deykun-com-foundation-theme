@@ -12,6 +12,7 @@
     %meta(name="viewport" content="width=device-width, initial-scale=1.0")
     %title ArtemHP-Theme
     %link(rel="stylesheet" href="./css/app.css")
+    %script(src="./public/angular/angular.min.js")
   %body
     %header.header
       %ul.aSlider(data-aSlider)
@@ -35,7 +36,7 @@
                 %ul.dropdown
                   - for i in 1..6
                     %li
-                      %a Lorem #{i}
+                      %a.top-bar-section-link Lorem #{i}
               %li
                 %a(href="#") Lorem
       %article.row.top-article
@@ -45,7 +46,7 @@
             %div.month JAN
             %div.year 1991
         %div.small-10.medium-6.large-6.columns
-          %h2
+          %h1.top-article-title
             %a(href="#") Lorem ipsum dolor sit amet, consectetur
           %div.top-article-content
             %p=loremBigText
@@ -54,7 +55,7 @@
       %div.blue-title
         %div.row
           %span.fa-lightbulb-o
-          %h2 Asperiores, nulla praesentium
+          %h1 Asperiores, nulla praesentium
       %div.row.last-notes
         %ul.large-block-grid-2.medium-block-grid-1
           - news.each do |news|
@@ -75,7 +76,7 @@
       %div.blue-title
         %div.row
           %div.fa-user
-          %h2 Ipsum laboriosam, optio
+          %h1 Ipsum laboriosam, optio
       %div.row
         %div.small-12.large-3.column
           %div.personal-photo

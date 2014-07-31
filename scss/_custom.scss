@@ -22,6 +22,7 @@ $sprites: sprite-map("./sprites/*.png");
 // Redefine Top Bar font-sizes
 
 .top-bar-section {
+	text-shadow: 0 1px #000;
 	ul {
 		&.dropdown > {
 			li > {
@@ -30,14 +31,6 @@ $sprites: sprite-map("./sprites/*.png");
 				}
 			}
 		}
-	}
-}
-
-// Redefine h2 font
-h2 {
-	font-family: Cuprum, san-sarif;
-	> a {
-		color: inherit;
 	}
 }
 
@@ -74,11 +67,16 @@ h2 {
 .top-article {
 	margin-top: rem-calc(40);
 	margin-bottom: rem-calc(40);
-	h2 {
-		margin-top: 0;
-		line-height: 1;
-	}
 }
+
+.top-article-title {
+	margin-top: 0;
+	line-height: 1;
+	font-family: Cuprum, san-sarif;
+	font-size: rem-calc(42);
+	text-shadow: 0 1px #fff;
+}
+
 
 .top-article-date {
 	position: relative;
@@ -87,6 +85,9 @@ h2 {
 	color: #fff;
 	text-align: center;
 	font-size: rem-calc(14);
+	> div:first-child {
+		margin-top: rem-calc(8);
+	}
 	.month {
 		font-weight: bold;
 	}
@@ -111,7 +112,9 @@ h2 {
 	margin-bottom: rem-calc(20);
 	padding-right: rem-calc(15);
 	padding-left: rem-calc(15);
-	background: $topbar-bg-color;
+//	background: $topbar-bg-color;
+	background-color: $topbar-bg-color;
+//	background-image: linear-gradient($topbar-bg-color, $topbar-bg-color 50%, lighten($topbar-bg-color, 1.5%) 50%, lighten($topbar-bg-color, 1.5%));
 	color: #fff;
 	> .row {
 		padding-top: rem-calc(3);
@@ -121,12 +124,15 @@ h2 {
 			float: left;
 			margin-right: rem-calc(25);
 			font-size: rem-calc(38);
+			text-shadow: 0 1px 0 #000;
 		}
-		> h2 {
+		> h1 {
 			margin-bottom: 0;
-			padding-top: rem-calc(4);
+//			padding-top: rem-calc(4);
+			font-family: Cuprum;
 			color: #fff;
-			font-size: rem-calc(21);
+			text-shadow: 0 1px 0 #000;
+			font-size: rem-calc(24);
 		}
 	}
 }
