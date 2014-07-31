@@ -5664,12 +5664,14 @@ th.hide-for-touch {
   .social-networks > a {
     color: #636363; }
     .social-networks > a:hover {
-      color: black; }
+      color: black;
+      text-decoration: none; }
 
 .promo-link {
   display: block; }
   .promo-link:hover {
-    background: #f3f3f3; }
+    background: #f3f3f3;
+    text-decoration: none; }
   .promo-link > h3 {
     color: inherit;
     font-size: 2rem;

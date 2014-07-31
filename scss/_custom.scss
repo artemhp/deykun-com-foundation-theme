@@ -177,6 +177,7 @@ $sprites: sprite-map("./sprites/*.png");
 		color: lighten($body-font-color, 20%);
 		&:hover {
 			color: darken($body-font-color, 20%);
+			text-decoration: none;
 		}
 	}
 }
@@ -185,6 +186,7 @@ $sprites: sprite-map("./sprites/*.png");
 	display: block;
 	&:hover {
 		background: #f3f3f3;
+		text-decoration: none;
 	}
 	> h3 {
 		color: inherit;
