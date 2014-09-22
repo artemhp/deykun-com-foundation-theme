@@ -117,5 +117,4 @@ module.exports = function (grunt) {
 
 	grunt.registerTask('default', ['concat', 'uglify', 'smushit', 'haml', 'sass', 'htmlmin', 'copy']);
 
-
 };

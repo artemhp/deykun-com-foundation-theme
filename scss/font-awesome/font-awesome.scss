@@ -1,12 +1,17 @@
 /*!
- *  Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 
-//customFont($fontName, $fileName1, $fileName2: false, $fileName3: false, $fileName4: false, $path: "../fonts/")
-
-@include customFont("FontAwesome", "fontawesome-webfont", false, false, false, "../fonts/font-awesome/");
-
 @import "variables";
+@import "mixins";
+@import "path";
 @import "core";
+@import "larger";
+@import "fixed-width";
+@import "list";
+@import "bordered-pulled";
+@import "spinning";
+@import "rotated-flipped";
+@import "stacked";
 @import "icons";

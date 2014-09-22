@@ -24,6 +24,11 @@ $sprites: sprite-map("./sprites/*.png");
 .top-bar-section {
 	text-shadow: 0 1px #000;
 	ul {
+		a {
+			&:hover {
+				text-decoration: none;
+			}
+		}
 		&.dropdown > {
 			li > {
 				a {
@@ -34,32 +39,33 @@ $sprites: sprite-map("./sprites/*.png");
 	}
 }
 
-// Redefine sliders resize of image inside
-
-.aSlider {
+.header {
 	position: relative;
-	overflow: hidden;
-	margin: 0;
-	height: rem-calc(300);
-	list-style-type: none;
-	> li {
+	.search {
 		position: absolute;
-		top: 0;
-		height: inherit;
-		> img {
-			max-width: none;
+		top: 3em;
+		right: 3em;
+		width: 3em;
+		z-index: 2;
+		input {
 		}
 	}
 }
 
-.header {
-	.orbit-container {
-		background: #c0c0c0;
-	}
-	.orbit-slides-container {
-		img {
+.aSlider {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+	height: rem-calc(250);
+	list-style-type: none;
+	> li {
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		height: inherit;
+		> img {
 			max-width: none;
-			margin: 0 auto;
 		}
 	}
 }
@@ -77,21 +83,13 @@ $sprites: sprite-map("./sprites/*.png");
 	text-shadow: 0 1px #fff;
 }
 
-
 .top-article-date {
 	position: relative;
-	margin-top: rem-calc(5);
-	padding-top: rem-calc(4);
 	color: #fff;
 	text-align: center;
 	font-size: rem-calc(14);
-	> div:first-child {
-		margin-top: rem-calc(8);
-	}
-	.month {
-		font-weight: bold;
-	}
-	&:before {
+	padding-top: rem-calc(10);
+	.fa-bookmark {
 		position: absolute;
 		top: 0;
 		z-index: -1;
@@ -100,6 +98,15 @@ $sprites: sprite-map("./sprites/*.png");
 		color: #c82a10;
 		text-align: center;
 		font-size: rem-calc(90);
+	}
+	> div {
+		font-family: Ubuntu, sans-serif;
+	}
+	> div:first-child {
+		margin-top: rem-calc(8);
+	}
+	.month {
+		font-weight: bold;
 	}
 }
 
